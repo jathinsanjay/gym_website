@@ -1,0 +1,129 @@
+body{
+    background: url('/img/training-gb6c3a7b93_1920.jpg');
+    height: 1200px;
+    color: white;
+    font-family: cursive;
+}
+
+.left{
+    /* border: 2px solid red; */
+   
+    display: inline-block;
+    position: absolute;
+   left:20px;
+    top: 5px;
+}
+
+
+
+
+
+
+.left a{
+    text-decoration: none;
+    color: rgb(242, 247, 247);
+    font-size:x-large;
+    font-weight: bold;
+   
+}
+.center{
+    /* border: 2px solid green; */
+    margin: 5px;
+    display: block;
+
+    width:33%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center ul{
+    display: inline-block;
+}
+.center ul li{
+    display: inline-block;
+    
+}
+.center ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 4px 9px;
+    color: white;
+}
+.center ul li a:hover,.center ul li a.current{
+    text-decoration: underline;
+    
+    color: rgb(175, 172, 172);
+}
+.right{
+    /* border: 2px solid yellow; */
+   
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 2px;
+}
+.right img{
+    width: 36px;
+    position: relative;
+    top: 11px;
+    left: 9px;
+    filter: invert(100%);
+}
+.btn{
+    font-size: 18px;
+    margin: 14px 9px;
+    padding:2px 11px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(35, 35, 35);
+    color: rgb(165, 164, 164);
+    cursor: pointer;
+
+}
+.container{
+    border: 2px solid white;
+    width: 626px;
+    position: relative;
+    top: 126px;
+    left: 126px;
+}
+.container input{
+    display: block;
+    width: 300px;
+    padding: 2px 2px;
+    margin: 9px auto;
+    font-size: 17px;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.container select{
+    display: block;
+    width: 300px;
+    padding: 2px 2px;
+    margin: 9px auto;
+    font-size: 17px;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 8px;
+    color: grey;
+
+}
+.container h1,.container p{
+    text-align: center;
+}
+.container{
+    border-radius: 10px;
+    padding: 31px;
+}
+.form .btn{
+    
+    display: block;
+    width: 317px;
+    margin: 10px auto;
+
+}
